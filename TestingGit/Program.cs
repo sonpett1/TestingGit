@@ -6,4 +6,10 @@ class Program
     {
         Console.WriteLine("My name is Sondre");
     }
+
+    static void CountTo(int num)
+    {
+        for (int i = 1; i <= num; i++)
+        {Console.WriteLine($"{i}");}
+    }
 }
